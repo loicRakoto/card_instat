@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-size: 13px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.imageTop {
+    width: 200px;
+    /* largeur de l'image */
+    height: auto;
+    /* hauteur automatique pour maintenir les proportions */
+}
+
+.rectangle {
+    margin-right: 10px;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    background-color: #16161600;
+    border: 1px solid #dee2e6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 30px;
+}
+
+.nIdentStat {
+    padding-top: 6px;
+}

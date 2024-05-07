@@ -1,0 +1,66 @@
+* {
+    box-sizing: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.principale {
+    display: flex;
+    flex-direction: row;
+}
+
+.carteGauche {
+    border: 2px solid #8d8d8d;
+}
+
+.carteGauche p,
+li {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a402d;
+}
+
+.carteDroite {
+    border: 2px solid #8d8d8d;
+}
+
+.repoLogo {
+    width: 280px;
+    height: auto;
+}
+
+.instatLogo {
+    width: 159px;
+    height: auto;
+}
+
+.cartIdenEtab {
+    border: 1px solid #c7c7c7;
+    box-shadow: rgb(0 0 0 / 74%) 7px 8px 0px, inset rgb(243 243 243 / 23%) -6px 4px 7px;
+    height: 100%;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.rectanglePrint {
+    margin-right: 6px;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-color: #16161600;
+    border: 1px solid #cfc6c6;
+    color: rgb(0 0 0);
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.colorLibelle {
+    color: #13598b;
+    font-weight: 500;
+}
